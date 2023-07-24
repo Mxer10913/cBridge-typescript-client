@@ -41,7 +41,7 @@ const _abi = [
         indexed: false,
         internalType: "address",
         name: "token",
-        type: "address",
+        type: "address",0x371c774B9B0C5eCEbA6b15D3dEE8400516F16d22
       },
       {
         indexed: false,
