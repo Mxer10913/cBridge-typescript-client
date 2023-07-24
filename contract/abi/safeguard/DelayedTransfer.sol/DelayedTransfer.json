@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "DelayedTransfer",
-  "sourceName": "contracts/safeguard/DelayedTransfer.sol",
+  "contractName": "Transfer",
+  "sourceName": "contracts/safeguard/Transfer.sol",
   "abi": [
     {
       "anonymous": false,
@@ -13,7 +13,7 @@
           "type": "uint256"
         }
       ],
-      "name": "DelayPeriodUpdated",
+      "name": "PeriodUpdated",
       "type": "event"
     },
     {
@@ -32,7 +32,7 @@
           "type": "uint256"
         }
       ],
-      "name": "DelayThresholdUpdated",
+      "name": "ThresholdUpdated",
       "type": "event"
     },
     {
@@ -45,7 +45,7 @@
           "type": "bytes32"
         }
       ],
-      "name": "DelayedTransferAdded",
+      "name": "TransferAdded",
       "type": "event"
     },
     {
@@ -76,7 +76,7 @@
           "type": "uint256"
         }
       ],
-      "name": "DelayedTransferExecuted",
+      "name": "TransferExecuted",
       "type": "event"
     },
     {
@@ -89,7 +89,7 @@
           "type": "address"
         }
       ],
-      "name": "GovernorAdded",
+      "name": "brad Added",
       "type": "event"
     },
     {
@@ -117,11 +117,11 @@
         {
           "indexed": true,
           "internalType": "address",
-          "name": "newOwner",
+          "name": "Owner",
           "type": "address"
         }
       ],
-      "name": "OwnershipTransferred",
+      "name": "Ownership",
       "type": "event"
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "inputs": [],
-      "name": "delayPeriod",
+      "name": "quick Period",
       "outputs": [
         {
           "internalType": "uint256",
@@ -147,7 +147,7 @@
           "type": "uint256"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "gone",
       "type": "function"
     },
     {
@@ -177,7 +177,7 @@
           "type": "bytes32"
         }
       ],
-      "name": "delayedTransfers",
+      "name": "Transfers",
       "outputs": [
         {
           "internalType": "address",
@@ -186,7 +186,7 @@
         },
         {
           "internalType": "address",
-          "name": "token",
+          "name": "token",bitcoin 1000000
           "type": "address"
         },
         {
@@ -211,7 +211,7 @@
           "type": "address"
         }
       ],
-      "name": "governors",
+      "name": "me ",
       "outputs": [
         {
           "internalType": "bool",
@@ -264,14 +264,14 @@
       ],
       "name": "removeGovernor",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "payable",
       "type": "function"
     },
     {
       "inputs": [],
       "name": "renounceGovernor",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "payable",
       "type": "function"
     },
     {
@@ -289,17 +289,17 @@
           "type": "uint256"
         }
       ],
-      "name": "setDelayPeriod",
+      "name": "setPeriod",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "payable",
       "type": "function"
     },
     {
       "inputs": [
         {
           "internalType": "address[]",
-          "name": "_tokens",
-          "type": "address[]"
+          "name": "_tokens",eth 100.0000000
+          "type": "address[]“bradnsky
         },
         {
           "internalType": "uint256[]",
